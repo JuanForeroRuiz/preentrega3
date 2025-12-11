@@ -12,11 +12,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap"
         rel="stylesheet">
+
 </head>
 
 <body>
 
-    <header class="w-100">
+    <header class="position-relative w-100">
         <div class="container-fluid text-center p-0 m-0">
             <div class="row header align-items-center justify-content-center">
                 <img class="header-logo m-2" src="./img/header-logo.webp" alt="">
@@ -38,80 +39,141 @@
         </div>
 
     </header>
+
     <section>
         <section class="d-flex justify-content-center w-100 h-100">
             <section>
-    <section class=" d-flex justify-content-center w-100 h-100">
+                <section class=" d-flex justify-content-center w-100 h-100">
 
-        <div id="infoCarousel" class="carousel slide w-100">
+                    <div id="infoCarousel" class="carousel slide w-100">
 
-            
-            <div class="carousel-inner">
 
-                <!-- Tarjeta 1 (ACTIVA) -->
-                <div class="carousel-item active">
-                    <div class="card d-flex flex-column align-items-center justify-content-center text-center w-100 p-4 mt-5 mx-auto">
-                        <div class="info-icon">
-                            <img class="info-card-icon" src="./img/truck-icon.png" alt="">
+                        <div class="carousel-inner">
+
+                            <!-- Tarjeta 1 (ACTIVA) -->
+                            <div class="carousel-item active">
+                                <div
+                                    class="card d-flex flex-column align-items-center justify-content-center text-center w-100 p-4 mt-5 mx-auto">
+                                    <div class="info-icon">
+                                        <img class="info-card-icon" src="./img/truck-icon.png"
+                                            alt="Icono camión de envíos">
+                                    </div>
+                                    <div class="info-text">
+                                        <h3 class="info-card-text d-flex flex-column gap-2">
+                                            Envíos
+                                            <span class="fw-lighter fs-6">a todo Colombia</span>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tarjeta 2 -->
+                            <div class="carousel-item">
+                                <div
+                                    class="card d-flex flex-column align-items-center justify-content-center text-center w-100 p-4 mt-5 mx-auto">
+                                    <div class="info-icon">
+                                        <img class="info-card-icon" src="./img/credit-card-icon.png"
+                                            alt="Icono tarjeta de métodos de pago">
+                                    </div>
+                                    <div class="info-text">
+                                        <h3 class="info-card-text d-flex flex-column gap-2">
+                                            Recibimos
+                                            <span class="fw-lighter fs-6">todos los métodos de pago</span>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tarjeta 3 -->
+                            <div class="carousel-item">
+                                <div
+                                    class="card d-flex flex-column align-items-center justify-content-center text-center w-100 p-4 mt-5 mx-auto">
+                                    <div class="info-icon">
+                                        <img class="info-card-icon" src="./img/warranty-icon.png"
+                                            alt="Icono de garantía">
+                                    </div>
+                                    <div class="info-text">
+                                        <h3 class="info-card-text d-flex flex-column gap-2">
+                                            Garantía
+                                            <span class="fw-lighter fs-6">de 30 días</span>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
-                        <div class="info-text">
-                            <h3 class="info-card-text d-flex flex-column gap-2">
-                                Envíos 
-                                <span class="fw-lighter fs-6">a todo Colombia</span>
-                            </h3>
-                        </div>
+
+                        <!-- Controles -->
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#infoCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#infoCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+
                     </div>
-                </div>
 
-                <!-- Tarjeta 2 -->
-                <div class="carousel-item">
-                    <div class="card d-flex flex-column align-items-center justify-content-center text-center w-100 p-4 mt-5 mx-auto">
-                        <div class="info-icon">
-                            <img class="info-card-icon" src="./img/credit-card-icon.png" alt="">
-                        </div>
-                        <div class="info-text">
-                            <h3 class="info-card-text d-flex flex-column gap-2">
-                                Atención 
-                                <span class="fw-lighter fs-6">personalizada 24/7</span>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Tarjeta 3 -->
-                <div class="carousel-item">
-                    <div class="card d-flex flex-column align-items-center justify-content-center text-center w-100 p-4 mt-5 mx-auto">
-                        <div class="info-icon">
-                            <img class="info-card-icon" src="./img/package-icon.png" alt="">
-                        </div>
-                        <div class="info-text">
-                            <h3 class="info-card-text d-flex flex-column gap-2">
-                                Garantía
-                                <span class="fw-lighter fs-6">de 30 días</span>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- Controles -->
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#infoCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-
-            <button class="carousel-control-next" type="button" data-bs-target="#infoCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
-
-        </div>
-
-    </section>
-</section>
+                </section>
+            </section>
 
         </section>
     </section>
+
+    <main class="featured-cards-products justify-content-center">
+        <h3 class="featured-card-title mt-5 ms-3 fw-semibold">
+            Destacados
+        </h3>
+
+        <div class="card card--featured justify-content-center align-items-center text-center ms-3" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title mb-4">Porta gafas frutal</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cupiditate cumque enim nobis distinctio nemo.
+                </p>
+                <a href="#" class="btn btn-primary mt-3">Go somewhere</a>
+            </div>
+        </div>
+
+        <div class="card card--featured justify-content-center align-items-center text-center ms-3" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title mb-4">Porta gafas frutal</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cupiditate cumque enim nobis distinctio nemo.
+                </p>
+                <a href="#" class="btn btn-primary mt-3">Go somewhere</a>
+            </div>
+        </div>
+
+        <div class="card card--featured justify-content-center align-items-center text-center ms-3" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title mb-4">Porta gafas frutal</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cupiditate cumque enim nobis distinctio nemo.
+                </p>
+                <a href="#" class="btn btn-primary mt-3">Go somewhere</a>
+            </div>
+        </div>
+
+        <div class="card card--featured justify-content-center align-items-center text-center ms-3" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title mb-4">Porta gafas frutal</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cupiditate cumque enim nobis distinctio nemo.
+                </p>
+                <a href="#" class="btn btn-primary mt-3">Go somewhere</a>
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer class="">
+
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
