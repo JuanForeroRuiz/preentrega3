@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
 
 </head>
 
@@ -45,7 +44,8 @@
             <section>
                 <section class=" d-flex justify-content-center w-100 h-100">
 
-                    <div id="infoCarousel" class="carousel slide w-100">
+                    <div id="infoCarousel" class="carousel slide w-100" data-bs-ride="carousel" data-bs-interval="4000"
+                        data-bs-pause="false">
 
 
                         <div class="carousel-inner">
@@ -123,55 +123,109 @@
         </section>
     </section>
 
-    <main class="featured-cards-products justify-content-center">
+    <main class="featured-cards-products d-flex flex-column justify-content-center">
         <h3 class="featured-card-title mt-5 ms-3 fw-semibold">
             Destacados
         </h3>
 
-        <div class="card card--featured justify-content-center align-items-center text-center ms-3" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title mb-4">Porta gafas frutal</h5>
-                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cupiditate cumque enim nobis distinctio nemo.
-                </p>
-                <a href="#" class="btn btn-primary mt-3">Go somewhere</a>
+        <div class="main-grid-container">
+            <!-- tarjeta1 -->
+            <div class="card bows card--featured justify-content-center align-items-center text-center ms-3"
+                style="width: 18rem;">
+                <img src="./img/portada-card-bows.jpeg" class="card-img-top" alt="Maxibow (Moño grande) en crochet">
+                <div class="card-body">
+                    <h5 class="card-title mb-4 fw-bold">Maxi Bows</h5>
+                    <p class="card-text">¿Te gusta el MiniBow?
+                        En su versión Maxi lo amaras, completamente tejido a mano, con gran variedad de colores para
+                        escoger y lo mejor: diseñado con pinza francesa.
+                    </p>
+                    <h6 class="product-card-price fw-bolder">$27.000 COP</h6>
+                    <a href="#" class="btn btn-primary mt-3 card-featured-btn">Comprar</a>
+                </div>
             </div>
+
+            <!-- tarjeta 2 -->
+            <div class="card amigurumi card--featured justify-content-center align-items-center text-center ms-3"
+                style="width: 18rem;">
+                <img src="./img/portada-card-amigurumi.jpg" class="card-img-top" alt="Dinsaurio amigurumi en Crochet">
+                <div class="card-body">
+                    <h5 class="card-title mb-4 fw-bold">Dinorumi</h5>
+                    <p class="card-text">Un tierno dinosaurio amigurumi tejido completamente a mano, suave al tacto y
+                        lleno de personalidad. Perfecto para regalar, decorar o acompañar momentos especiales, hecho con
+                        amor y cuidado en cada detalle.
+                    </p>
+                    <h6 class="product-card-price fw-bolder">$125.000 COP</h6>
+                    <a href="#" class="btn btn-primary mt-3 card-featured-btn">Comprar</a>
+                </div>
+            </div>
+
+            <!-- tarjeta 3 -->
+            <div class="card porta-gafas card--featured justify-content-center align-items-center text-center ms-3"
+                style="width: 18rem;">
+                <img src="./img/portada-card-portagafas.jpeg" class="card-img-top" alt="Portagafas en Crochet">
+                <div class="card-body">
+                    <h5 class="card-title mb-4 fw-bold">Porta Gafas Frutal</h5>
+                    <p class="card-text">Protege tus gafas con un toque de frescura y estilo.
+
+                        Inspirados en los vibrantes colores de las frutas, con un diseño original y funcional,
+                        manteniendo tus gafas a salvo mientras añades destellos coloridos a tu día.
+                    </p>
+                    <h6 class="product-card-price fw-bolder">$30.000 COP</h6>
+                    <a href="#" class="btn btn-primary mt-3 card-featured-btn">Comprar</a>
+                </div>
+            </div>
+
+            <!-- tarjeta 4 -->
+            <div class="card flores card--featured justify-content-center align-items-center text-center ms-3"
+                style="width: 18rem;">
+                <img src="./img/portada-card-flores.jpeg" class="card-img-top" alt="Flores Crochet">
+                <div class="card-body">
+                    <h5 class="card-title mb-4 fw-bold">Ramo Abril Armonioso</h5>
+                    <p class="card-text">Un detalle eterno hecho a mano con rosa, girasol y manzanilla. Su diseño
+                        artesanal llena de color y calidez cualquier espacio, ideal para regalar, decorar y conservar un
+                        recuerdo que no se marchita.
+                    </p>
+                    <h6 class="product-card-price fw-bolder">$70.000 COP</h6>
+                    <a href="#" class="btn btn-primary mt-3 card-featured-btn">Comprar</a>
+                </div>
+            </div>
+
         </div>
 
-        <div class="card card--featured justify-content-center align-items-center text-center ms-3" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title mb-4">Porta gafas frutal</h5>
-                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cupiditate cumque enim nobis distinctio nemo.
-                </p>
-                <a href="#" class="btn btn-primary mt-3">Go somewhere</a>
-            </div>
-        </div>
-
-        <div class="card card--featured justify-content-center align-items-center text-center ms-3" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title mb-4">Porta gafas frutal</h5>
-                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cupiditate cumque enim nobis distinctio nemo.
-                </p>
-                <a href="#" class="btn btn-primary mt-3">Go somewhere</a>
-            </div>
-        </div>
-
-        <div class="card card--featured justify-content-center align-items-center text-center ms-3" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title mb-4">Porta gafas frutal</h5>
-                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cupiditate cumque enim nobis distinctio nemo.
-                </p>
-                <a href="#" class="btn btn-primary mt-3">Go somewhere</a>
-            </div>
-        </div>
+        <button class="btn btn-secondary main-btn text-center fw-normal">Ver más destacados</button>
 
     </main>
 
 
-    <footer class="">
+    <footer>
+        <div class="footer-container d-flex flex-column mx-auto p-3">
+            <div class="footer-title">
+                <h3 class="footer-title fw-bold mb-3">
+                    Suscríbete al newsletter
+                </h3>
+            </div>
+
+            <form class="newsletter-form d-flex flex-column justify-content-center mb-4" action="#" method="POST">
+                <div class=" d-flex flex-column">
+                    <label class="mb-1" for="email">Correo electrónico</label>
+                    <div class="input-container ">
+                        <input type="email" id="email" name="email" placeholder="Ingresa tu correo"
+                            class="mt-2 justify-content-center footer-input ">
+                        <button class="btn btn-primary submit-btn ms-2" type="submit">Suscribirse</button>
+                    </div>
+                </div>
+
+                <p class="footer-text mt-4">
+                    En Llamita Crochet cada historia importa. Por eso haz parte de nuestro boletín informativo y
+                    enterate primero de todo antes que los demás.
+                </p>
+            </form>
+
+
+        </div>
+        <div class="footer-copy p-3">
+            &copy; Llamita Crochet 2025. Todos los derechos reservados
+        </div>
 
     </footer>
 
