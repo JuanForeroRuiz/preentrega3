@@ -1,0 +1,30 @@
+header {
+    background-image: url(../img/fondo_header.jpg);
+    height: 30vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    h1 {
+        font-size: 1.5rem;
+        color: $text-primary-color;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    span {
+        font-size: 1.3rem;
+    }
+}
+
+.btn-primary {
+    background-color: $bg-primary-color;
+    color: $text-primary-color;
+
+    :hover {
+        background-color: $bg-secondary-color;
+    }
+}
+

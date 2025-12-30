@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url(../img/fondo_header.jpg);
+  height: 30vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+header h1 {
+  font-size: 1.5rem;
+  color: #fff;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+header span {
+  font-size: 1.3rem;
+}
+
+.btn-primary {
+  background-color: #1107b6;
+  color: #fff;
+}
+.btn-primary :hover {
+  background-color: #00005f;
+}/*# sourceMappingURL=style.css.map */
