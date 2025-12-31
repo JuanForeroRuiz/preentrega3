@@ -12,8 +12,14 @@
 
         button {
             border: 0.2px solid $border-primary-color;
+            a {
+                text-decoration: none;
+                color: $text-primary-color;
+            }
         }
     }
+
+
 
 }
 
@@ -71,11 +77,11 @@ h1 {
 
 
 
-// Header pages
+// Header PAGES
 
 .header {
     background-image: url(../img/header-background-pages.jpg);
-    height: 30vh;
+    height: 45vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -83,7 +89,7 @@ h1 {
     section {
         color: $text-primary-color;
         @extend %flexColumnCentrado;
-        align-items: center;
+        
 
         p {
             margin-left: 1rem;

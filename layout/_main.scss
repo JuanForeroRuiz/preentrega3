@@ -32,7 +32,7 @@ h3 {
 }
 
 
-// CARDS
+// CARDS - CONTAINERS - BOXES
 
 .card {
     width: 80%;
@@ -67,6 +67,9 @@ h3 {
     @extend %flexColumnCentrado;
     margin-bottom: 2rem;
 }
+
+
+
 
 
 // BOTONES

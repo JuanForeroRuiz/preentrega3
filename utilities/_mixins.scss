@@ -1,0 +1,74 @@
+// MEDIA QUERIES TABLET
+
+@media only screen and (min-width: 450px) {
+
+    // Index page
+
+    .grid-container-estilos {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+
+        .card {
+            max-width: 80%;
+        }
+    }
+
+    .blackwork-card {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .lettering-card {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+
+    // Blackwork page
+
+    .grid-container-blackwork {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .card-blackwork1 {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .card-blackwork2 {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .card-blackwork3 {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .card-blackwork4 {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+
+
+
+    // Footer
+
+    .footer {
+        gap: 4rem;
+        width: 100%;
+
+        .footer-list {
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+        }
+
+    }
+
+
+}

@@ -17,6 +17,52 @@ footer {
   align-items: center;
 }
 
+@media only screen and (min-width: 450px) {
+  .grid-container-estilos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .grid-container-estilos .card {
+    max-width: 80%;
+  }
+  .blackwork-card {
+    grid-area: 1/1/2/2;
+  }
+  .lettering-card {
+    grid-area: 1/2/2/3;
+  }
+  .grid-container-blackwork {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .card-blackwork1 {
+    grid-area: 1/1/2/2;
+  }
+  .card-blackwork2 {
+    grid-area: 1/2/2/3;
+  }
+  .card-blackwork3 {
+    grid-area: 2/1/3/2;
+  }
+  .card-blackwork4 {
+    grid-area: 2/2/3/3;
+  }
+  .footer {
+    gap: 4rem;
+    width: 100%;
+  }
+  .footer .footer-list {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -29,6 +75,10 @@ body {
 }
 .index-header section button {
   border: 0.2px solid #2990ff;
+}
+.index-header section button a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .navbar {
@@ -72,14 +122,13 @@ h1 span {
 
 .header {
   background-image: url(../img/header-background-pages.jpg);
-  height: 30vh;
+  height: 45vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .header section {
   color: #fff;
-  align-items: center;
 }
 .header section p {
   margin-left: 1rem;
