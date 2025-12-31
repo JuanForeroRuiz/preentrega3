@@ -1,12 +1,9 @@
+// TITULOS Y PARRAFOS 
+
 .about-me {
 
     span {
         font-weight: bold;
-    }
-
-    .main-title {
-        margin-bottom: 1rem;
-
     }
 
     p {
@@ -15,15 +12,33 @@
     }
 }
 
-.main-title {
-        text-decoration: underline;
-        text-underline-offset: 0.6rem;
-        font-weight: 600;
-    }
+h3 {
+    text-decoration: underline;
+    text-underline-offset: 0.6rem;
+    font-weight: 600;
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.info-estilo {
+    margin-left: 1rem;
+
+}
+
+.section-title {
+    text-underline-offset: 0.6rem;
+    line-height: 2.5rem;
+}
+
+
+// CARDS
 
 .card {
     width: 80%;
     margin: auto;
+    border-radius: 1rem;
+
     .card-text {
         font-size: 0.8rem;
     }
@@ -38,4 +53,37 @@
 .cards {
     gap: 2rem;
     margin-bottom: 4rem;
+}
+
+.card-estilo {
+    img {
+        height: 20rem;
+        padding: 1rem;
+
+    }
+}
+
+.agendar-container {
+    @extend %flexColumnCentrado;
+    margin-bottom: 2rem;
+}
+
+
+// BOTONES
+
+.btn-agendar {
+
+    background-color: $bg-primary-color;
+    padding: 1rem;
+    &:hover {
+        background-color: $bg-secondary-color;
+    }
+    
+
+    .text-btn {
+        text-decoration: none;
+        color: $text-primary-color;
+
+    }
+
 }

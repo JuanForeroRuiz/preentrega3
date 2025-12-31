@@ -3,10 +3,11 @@
   padding: 0;
 }
 
-.index-header section {
+.agendar-container, .header section, .index-header section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   height: 100%;
 }
 
@@ -21,7 +22,6 @@ body {
 }
 
 .index-header {
-  position: relative;
   background-image: url(../img/fondo_header.jpg);
   height: 50vh;
   background-repeat: no-repeat;
@@ -70,25 +70,51 @@ h1 span {
   color: #fff;
 }
 
+.header {
+  background-image: url(../img/header-background-pages.jpg);
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header section {
+  color: #fff;
+  align-items: center;
+}
+.header section p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .about-me span {
   font-weight: bold;
-}
-.about-me .main-title {
-  margin-bottom: 1rem;
 }
 .about-me p {
   margin-left: 1rem;
 }
 
-.main-title {
+h3 {
   text-decoration: underline;
   text-underline-offset: 0.6rem;
   font-weight: 600;
+  margin-top: 0.8rem;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.info-estilo {
+  margin-left: 1rem;
+}
+
+.section-title {
+  text-underline-offset: 0.6rem;
+  line-height: 2.5rem;
 }
 
 .card {
   width: 80%;
   margin: auto;
+  border-radius: 1rem;
 }
 .card .card-text {
   font-size: 0.8rem;
@@ -103,6 +129,27 @@ h1 span {
 .cards {
   gap: 2rem;
   margin-bottom: 4rem;
+}
+
+.card-estilo img {
+  height: 20rem;
+  padding: 1rem;
+}
+
+.agendar-container {
+  margin-bottom: 2rem;
+}
+
+.btn-agendar {
+  background-color: #1107b6;
+  padding: 1rem;
+}
+.btn-agendar:hover {
+  background-color: #00005f;
+}
+.btn-agendar .text-btn {
+  text-decoration: none;
+  color: #fff;
 }
 
 footer {
