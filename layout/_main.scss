@@ -1,0 +1,41 @@
+.about-me {
+
+    span {
+        font-weight: bold;
+    }
+
+    .main-title {
+        margin-bottom: 1rem;
+
+    }
+
+    p {
+        margin-left: 1rem;
+
+    }
+}
+
+.main-title {
+        text-decoration: underline;
+        text-underline-offset: 0.6rem;
+        font-weight: 600;
+    }
+
+.card {
+    width: 80%;
+    margin: auto;
+    .card-text {
+        font-size: 0.8rem;
+    }
+
+    img {
+        width: 100%;
+        height: 16rem;
+        object-fit: cover;
+    }
+}
+
+.cards {
+    gap: 2rem;
+    margin-bottom: 4rem;
+}

@@ -3,29 +3,129 @@
   padding: 0;
 }
 
-header {
-  background-image: url(../img/fondo_header.jpg);
-  height: 30vh;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-header h1 {
-  font-size: 1.5rem;
-  color: #fff;
-  justify-content: center;
+.index-header section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
-header span {
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.index-header {
+  position: relative;
+  background-image: url(../img/fondo_header.jpg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.index-header section button {
+  border: 0.2px solid #2990ff;
+}
+
+.navbar {
+  background-color: #282872;
+}
+.navbar .navbar-brand {
+  color: #fff;
   font-size: 1.3rem;
+  font-weight: 400;
+}
+.navbar .nav-link {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 span {
+  margin-top: 0.3rem;
+  font-size: 1rem;
+  font-weight: 200;
+  margin-top: 0.4rem;
 }
 
 .btn-primary {
   background-color: #1107b6;
   color: #fff;
+  padding: 0.8rem 1.5rem;
+  margin-top: 1rem;
 }
-.btn-primary :hover {
+
+.btn-primary:hover {
   background-color: #00005f;
+  color: #fff;
+}
+
+.about-me span {
+  font-weight: bold;
+}
+.about-me .main-title {
+  margin-bottom: 1rem;
+}
+.about-me p {
+  margin-left: 1rem;
+}
+
+.main-title {
+  text-decoration: underline;
+  text-underline-offset: 0.6rem;
+  font-weight: 600;
+}
+
+.card {
+  width: 80%;
+  margin: auto;
+}
+.card .card-text {
+  font-size: 0.8rem;
+}
+.card img {
+  width: 100%;
+  height: 16rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cards {
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+footer {
+  background-color: #a5c4ff;
+  height: 10rem;
+  gap: 3rem;
+}
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+footer ul li:hover {
+  transform: scale(1.05);
+  font-weight: 500;
+}
+footer ul a {
+  text-decoration: none;
+  color: #181818;
+}
+footer img {
+  width: 5rem;
+  height: 4rem;
 }/*# sourceMappingURL=style.css.map */
