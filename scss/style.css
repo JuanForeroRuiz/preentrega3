@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.agendar-container, .header section, .index-header section {
+.agendar-container, .about-me section, .header section, .index-header section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,8 +38,8 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-column-gap: 0rem;
+    grid-row-gap: 1rem;
   }
   .card-blackwork1 {
     grid-area: 1/1/2/2;
@@ -140,6 +140,14 @@ h1 span {
 }
 .about-me p {
   margin-left: 1rem;
+}
+.about-me button {
+  margin-bottom: 2rem;
+  padding: 1rem 3rem;
+}
+.about-me button a {
+  text-decoration: none;
+  color: #fff;
 }
 
 h3 {

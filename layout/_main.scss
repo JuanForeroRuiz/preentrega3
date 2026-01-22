@@ -1,6 +1,8 @@
 // TITULOS Y PARRAFOS 
 
 .about-me {
+    
+    
 
     span {
         font-weight: bold;
@@ -10,7 +12,26 @@
         margin-left: 1rem;
 
     }
+
+    section {
+        @extend %flexColumnCentrado;
+    }
+
+    button {
+        margin-bottom: 2rem;
+        padding: 1rem 3rem;
+
+        a {
+            text-decoration: none;
+            color: $text-primary-color;
+        }
+
+    }
 }
+
+
+
+
 
 h3 {
     text-decoration: underline;
@@ -71,17 +92,17 @@ h3 {
 
 
 
-
 // BOTONES
 
 .btn-agendar {
 
     background-color: $bg-primary-color;
     padding: 1rem;
+
     &:hover {
         background-color: $bg-secondary-color;
     }
-    
+
 
     .text-btn {
         text-decoration: none;
