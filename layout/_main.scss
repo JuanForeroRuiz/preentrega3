@@ -1,8 +1,8 @@
 // TITULOS Y PARRAFOS 
 
 .about-me {
-    
-    
+
+
 
     span {
         font-weight: bold;
@@ -13,13 +13,12 @@
 
     }
 
-    section {
-        @extend %flexColumnCentrado;
-    }
+
 
     button {
-        margin-bottom: 2rem;
-        padding: 1rem 3rem;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        margin-bottom: 1.5rem;
 
         a {
             text-decoration: none;
@@ -53,6 +52,7 @@ h3 {
 }
 
 
+
 // CARDS - CONTAINERS - BOXES
 
 .card {
@@ -77,9 +77,13 @@ h3 {
 }
 
 .card-estilo {
+
+    max-width: 70%;
+
     img {
         height: 20rem;
         padding: 1rem;
+
 
     }
 }
@@ -88,6 +92,8 @@ h3 {
     @extend %flexColumnCentrado;
     margin-bottom: 2rem;
 }
+
+
 
 
 
@@ -110,4 +116,21 @@ h3 {
 
     }
 
+}
+
+form {
+    button {
+        a {
+            text-decoration: none;
+            color: $text-primary-color;
+        }
+    }
+}
+
+
+
+.form-agendar {
+    background-color: $bg-light;
+    padding: 1rem;
+    border-radius: 0.4rem;
 }
